@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/codefellows/seattle-javascript-401n1.png?label=ready&title=Ready)](https://waffle.io/codefellows/seattle-javascript-401n1)
 Code Fellows Seattle, Javascript 401n1
 =====================================
 > Advanced Software Development  
