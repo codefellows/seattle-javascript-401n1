@@ -6,10 +6,11 @@
 [![Issues in Lab Help](https://badge.waffle.io/codefellows/seattle-javascript-401n1.svg?label=question&title=Lab%20Help)](https://waffle.io/codefellows/seattle-javascript-401n1) [![Issues in Bug](https://badge.waffle.io/codefellows/seattle-javascript-401n1.svg?label=bug&title=Bug)](https://waffle.io/codefellows/seattle-javascript-401n1)  
 
 ### 401n1 Resources
-* [codefellows-seattle-javascript-401n1](https://github.com/codefellows-seattle-javascript-401n1): **401n1 Labs/Code Assignments**
-* [401n1 canvas](https://canvas.instructure.com/courses/1018662): Find readings, quizzes, survays, labs, ect...
+* [401n1 code assignment repositorys](https://github.com/codefellows-seattle-javascript-401n1)
+* [401n1 canvas](https://canvas.instructure.com/courses/1024929): Find readings, quizzes, survays, labs, ect...
 * [401n1 slack chatroom](https://codefellows.slack.com/messages/sea-401n1-javascript/): Class Chat
 * [401n1 waffle board](https://waffle.io/codefellows/seattle-javascript-401n1): Lab Help and Issues with course repositories
+* [401n1 prework repository](https://github.com/codefellows/code-401-JS-prework)
 
 # Welcome
 
