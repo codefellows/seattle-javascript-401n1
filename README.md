@@ -1,6 +1,8 @@
 Code Fellows Seattle, Javascript 401n1
 =====================================
-> Advanced Software Development
+> Advanced Software Development  
+
+[![Issues in Lab Help](https://badge.waffle.io/codefellows/seattle-javascript-401n1.svg?label=question&title=Lab%20Help)](https://waffle.io/codefellows/seattle-javascript-401n1) [![Issues in Bug](https://badge.waffle.io/codefellows/seattle-javascript-401n1.svg?label=bug&title=Bug)](https://waffle.io/codefellows/seattle-javascript-401n1)  
 
 Welcome to Code 401 Javascript! This is a class that builds on your fundamental Javascript programming knowledge to make you a proficient full-stack Javascript developer, and to prepare you for getting a job in today's Javascript job market!
 
