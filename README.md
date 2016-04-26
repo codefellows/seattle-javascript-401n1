@@ -1,4 +1,4 @@
-![Code Fellows](assets/cf-badge-32x32.png) Code Fellows Seattle, Javascript 401n1
+![Code Fellows](assets/shield.png) Code Fellows Seattle, Javascript 401n1
 =====================================
 > Advanced Software Development  
 
