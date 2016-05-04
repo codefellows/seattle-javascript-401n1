@@ -1,0 +1,18 @@
+{
+  "name": "async-testing-demo",
+  "version": "0.1.0",
+  "description": "async testing demo",
+  "main": "n/a",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha"
+  },
+  "author": "slugbyte",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
