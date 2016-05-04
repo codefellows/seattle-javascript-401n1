@@ -1,0 +1,17 @@
+{
+  "name": "ref-vs-val-demo",
+  "version": "0.1.0",
+  "description": "'demo npm init'",
+  "main": "pass-by-reference.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "dwolfm@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.1.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0"
+  }
+}
