@@ -6,6 +6,7 @@
 [![Issues in Lab Help](https://badge.waffle.io/codefellows/seattle-javascript-401n1.svg?label=question&title=Lab%20Help)](https://waffle.io/codefellows/seattle-javascript-401n1) [![Issues in Bug](https://badge.waffle.io/codefellows/seattle-javascript-401n1.svg?label=bug&title=Bug)](https://waffle.io/codefellows/seattle-javascript-401n1)  
 
 ### 401n1 Resources
+* [401n1 youtube videos](https://www.youtube.com/playlist?list=PLVngfM2hsbi_AxXqyfUNJWVJOhYsDKNX8)
 * [401n1 code assignment repositorys](https://github.com/codefellows-seattle-javascript-401n1)
 * [401n1 canvas](https://canvas.instructure.com/courses/1024929): Find readings, quizzes, survays, labs, ect...
 * [401n1 slack chatroom](https://codefellows.slack.com/messages/sea-401n1-javascript/): Class Chat
