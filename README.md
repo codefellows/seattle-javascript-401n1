@@ -3,14 +3,16 @@
 > Advanced Software Development  
 
 
-[![Issues in Lab Help](https://badge.waffle.io/codefellows/seattle-javascript-401n1.svg?label=question&title=Lab%20Help)](https://waffle.io/codefellows/seattle-javascript-401n1) [![Issues in Bug](https://badge.waffle.io/codefellows/seattle-javascript-401n1.svg?label=bug&title=Bug)](https://waffle.io/codefellows/seattle-javascript-401n1)  
+[![](https://img.shields.io/badge/Issues%3F-Ask%20for%20Help!-55cbe0.svg)](https://github.com/codefellows/seattle-javascript-401n1/issues)
+[![](https://img.shields.io/badge/Slack-401n1%20Chat-34d87b.svg)](https://codefellows.slack.com/messages/sea-401n1-javascript/)
+[![](https://img.shields.io/badge/Canvas-401n1%20Assignments-d834bd.svg)](https://canvas.instructure.com/courses/1024929)
+[![](https://img.shields.io/badge/YouTube-401n1%20Lectures-red.svg)](https://www.youtube.com/playlist?list=PLVngfM2hsbi_AxXqyfUNJWVJOhYsDKNX8)
 
 ### 401n1 Resources
 * [401n1 youtube videos](https://www.youtube.com/playlist?list=PLVngfM2hsbi_AxXqyfUNJWVJOhYsDKNX8)
 * [401n1 code assignment repositorys](https://github.com/codefellows-seattle-javascript-401n1)
 * [401n1 canvas](https://canvas.instructure.com/courses/1024929): Find readings, quizzes, survays, labs, ect...
 * [401n1 slack chatroom](https://codefellows.slack.com/messages/sea-401n1-javascript/): Class Chat
-* [401n1 waffle board](https://waffle.io/codefellows/seattle-javascript-401n1): Lab Help and Issues with course repositories
 * [401n1 prework repository](https://github.com/codefellows/code-401-JS-prework)
 
 # Welcome
