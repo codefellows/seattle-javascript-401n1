@@ -1,0 +1,22 @@
+{
+  "name": "note-api",
+  "version": "0.1.0",
+  "description": "> single resource applicaton demo",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "duncann@codefellows.com",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^2.0.0",
+    "gulp-mocha": "^2.2.0",
+    "gulp-nodemon": "^2.0.7",
+    "superagent": "^1.8.3"
+  },
+  "dependencies": {
+    "node-uuid": "^1.4.7"
+  }
+}
