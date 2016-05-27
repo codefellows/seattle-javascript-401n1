@@ -58,8 +58,7 @@ describe('testing module note-router', function(){
   describe('testing GET /api/note', function(done){
     before((done) => {
       this.tempNote = new Note('test data');
-      storage.pool.note = {};
-      storage.pool.note[this.tempNote.id] = this.tempNote;
+      storage.setItem('note', this.tempNote);
       done();
     });
 
