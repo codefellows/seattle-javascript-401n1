@@ -1,0 +1,14 @@
+@import "vendor/normalize.css";
+@import "_theame";
+
+body {
+  background-color: $app-rose;
+}
+
+h1 {
+  color: $app-per;
+}
+
+pre {
+  background-color: $app-peach;
+}
