@@ -1,0 +1,17 @@
+{
+  "name": "intro-angular-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "angular": "^1.5.7",
+    "file-loader": "^0.9.0",
+    "webpack": "^1.13.1"
+  }
+}
