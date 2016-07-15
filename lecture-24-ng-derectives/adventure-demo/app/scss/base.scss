@@ -1,0 +1,49 @@
+@import "vendor/normalize.css";
+
+form {
+  .error-bubble {
+    background-color: red;
+    color: white;
+    padding: 4px;
+    margin: 10px;
+    border-radius: 2px;
+  }
+  input, select {
+    width: 100%;
+  }
+
+  input[type="text"].ng-pristine,
+  select.ng-pristine,
+  input[type="email"].ng-pristine {
+    border: solid 2px black;
+    width: 100%;
+  }
+
+  input[type="text"].ng-touched,
+  select.ng-touched,
+  input[type="email"].ng-touched {
+    border: solid 2px orange;
+    width: 100%;
+  }
+
+  input[type="text"]:focus,
+  input[type="email"]:focus {
+    border: solid 2px blue;
+    width: 100%;
+  }
+
+  input[type="text"].ng-touched.ng-invalid,
+  select.ng-touched.ng-invalid,
+  input[type="email"].ng-touched.ng-invalid {
+    border: solid 2px red;
+    width: 100%;
+  }
+  input[type="text"].ng-touched.ng-invalid,
+  select.ng-touched.ng-invalid,
+  input[type="email"].ng-touched.ng-invalid {
+    border: solid 2px red;
+    width: 100%;
+  }
+
+  
+}
