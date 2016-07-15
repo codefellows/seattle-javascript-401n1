@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html ng-app="demoApp">
+  <head>
+    <link rel="stylesheet" type="text/css" href="bundle.css">
+    <script src="bundle.js"></script>
+  </head>
+  <body>
+    <main ng-controller="GameController as gameCtrl">
+      <form novalidate name="gameForm">
+        <select ng-model="gameCtrl.gameForm.direction">
+          <option value="north"> north </option>
+          <option value="south"> south </option>
+          <option value="east"> east </option>
+          <option value="west"> west </option>
+        </select>
+        <input type="button" ng-click="gameCtrl.moveDirection(gameCtrl.gameForm.direction)" value="Move">
+        <input type="button" ng-disabled="!gameCtrl.room.monster" ng-click="gameCtrl.attackMonster()" value="Attack">
+      </form>
+      <section>
+        <h2> {{ gameCtrl.player.name }} </h2>
+        <h3> HP: </h3> <p> {{ gameCtrl.player.hp }}</p> 
+        <h3> XP: </h3> <p> {{ gameCtrl.player.xp }}</p> 
+        <h3> Location: </h3> <p> {{ gameCtrl.player.location }}</p> 
+      </section>
+      <section>
+        <h2> Room:</h2> <p> {{ gameCtrl.room.name }}</p>
+        <div ng-show="gameCtrl.room.monster">
+          <h3> Monster: </h3>
+          <pre> 
+  name: {{gameCtrl.room.monster.name }}  
+  hp: {{gameCtrl.room.monster.hp}}
+          </pre>
+        </div>
+
+      </section>
+      <section>
+        <h2> Game History: </h2>
+        <ol>
+          <li ng-repeat="move in gameCtrl.history"> {{ move }} </li>
+        </ol>
+      </section>
+    </main>
+  </body>
+</html>
+
+
+
+
+
+
+
