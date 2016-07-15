@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html ng-app="adventureApp">
+  <head>
+    <title> saltmine </title>
+    <link rel="stylesheet" type="text/css" href="bundle.css" />
+    <script src="bundle.js"></script>
+  </head>
+  <body>
+    <main ng-controller="AdventureController" 
+    ng-init="player.power='fly'; player.class=setup.classes[0]">
+      <div ng-hide="setup.done" class="create-player-screen">
+        <form novalidate name="createPlayerForm" ng-submit="">
+          <label for="playerName">Name:</label>
+          <input name="playerName" type="text" ng-model="player.name" required/>
+          <div class="error-bubble" ng-show="createPlayerForm.$submitted && createPlayerForm.playerName.$error.required">
+            player name is required!
+          </div>
+
+          <label for="playerEmail">Email:</label>
+          <input name="playerEmail" type="email" ng-model="player.email" required/>
+          <div class="error-bubble" ng-show="createPlayerForm.$submitted && createPlayerForm.playerEmail.$error.required">
+            player email is required!
+          </div>
+
+          <div class="error-bubble" ng-show="createPlayerForm.$submitted && createPlayerForm.playerEmail.$invalid">
+            must be valid email
+          </div>
+
+          <label for="playerRandomPower"> Random Power </label>
+          <input name="playerRandomPower" 
+          type="checkbox" ng-model="player.randomPower"\>
+
+          <label for="playerPower">Power:</label>
+          <select name="playerPower" ng-model="player.power" 
+            ng-disabled="player.randomPower">
+            <option ng-repeat="power in setup.powers" value="{{power}}"> 
+            {{power}}
+            </option>
+           </select>
+
+          <label for="playerClass">Class:</label>
+           <select name="playerClass" ng-model="player.class"
+             ng-options="class as class.name for class in setup.classes track by class.id">
+           </select>
+
+          <input type="submit"/>
+        </form>
+      </div>
+      <div ng-show="setup.done" class="welcome-screen">
+        welcome screen div
+      </div>
+      <div class="game-screen">
+      </div>
+    </main>
+  </body>
+</html>
