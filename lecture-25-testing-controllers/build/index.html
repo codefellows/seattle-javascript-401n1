@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app="demoApp">
+  <head>
+    <link rel="stylesheet" type="text/css" href="bundle.css" />
+    <script src="bundle.js"></script>
+  </head>
+  <body>
+    <div ng-controller="PlayerController">
+      <form novalidate >
+        <label> CLASS: </label>
+        <input ng-model="newClass" />
+        <button type="submit" ng-click="updateClass(newClass)">update class</button>
+      </form>
+      <pre> {{ player }} </pre>
+    </div>
+    <div ng-controller="MonsterController as monsterCtrl">
+      <form novalidate >
+        <label> HP: </label>
+        <input ng-model="monsterCtrl.damageAmount" />
+        <button type="submit" ng-click="monsterCtrl.takeDamage(monsterCtrl.damageAmount)">update class</button>
+      </form>
+
+      <p> {{ monsterCtrl.monster }} </p>
+    </div>
+  </body>
+</html>
