@@ -1,0 +1,17 @@
+<section class="app-gallery">
+
+  <form novalidate ng-submit="appGalleryCtrl.addGalleryItem()">
+    <label for="title">title: </label>
+    <input name="title" type="text" ng-model="appGalleryCtrl.galleryItem.title">
+    <label for="desc">desc: </label>
+    <input type="text" ng-model="appGalleryCtrl.galleryItem.desc">
+    <label for="imgSrc">image source:</label>
+    <input type="text" ng-model="appGalleryCtrl.galleryItem.imgSrc">
+    <input type="submit" value="create item">
+  </form>
+  <ul>
+    <!-- create a app-gallery-item for each image in the controllers images array -->
+
+    <app-gallery-item ng-repeat="item in appGalleryCtrl.images" title="{{item.title}}" desc="{{item.desc}}" img-src="{{item.imgSrc}}"> </app-gallery-item>
+  </ul>
+</section>
