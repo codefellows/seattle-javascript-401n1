@@ -1,0 +1,18 @@
+// reset
+@import "vendor/normalize.scss";
+// scss libs
+@import "vendor/bootstrap.scss";
+@import "vendor/font-awesome/scss/font-awesome.scss";
+// partials
+@import "_theme";
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: $app-default;
+}
+
+
+
