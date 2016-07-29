@@ -1,0 +1,16 @@
+<main class="app-main">
+
+<app-gallery-item-form btn-title="Add Image" submit="appMainCtrl.addImage(image)"> 
+</app-gallery-item-form>
+
+<div class="app-gallery-container">
+  <app-gallery-item ng-repeat="item in appMainCtrl.images" image="item"> </app-gallery-item>
+</div>
+
+ <!--the code for a modal image is below-->
+    <!--<app-show-modal-form show-image="appMainCtrl.showModalImage(image)"></app-show-modal-form>-->
+
+  <!--<app-modal-image image-url="appMainCtrl.displayImageUrl"-->
+    <!--ng-show="appMainCtrl.dispayModalImage" close-modal="appMainCtrl.hideModalImage()"></app-modal-image>-->
+
+</main>

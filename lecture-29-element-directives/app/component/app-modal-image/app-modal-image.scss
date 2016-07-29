@@ -1,0 +1,26 @@
+@import "_theme";
+.app-modal-image {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  
+  main {
+    z-index: 100;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right:auto;
+    background-color: $app-light;
+  }
+
+  div {
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+  }
+}
