@@ -1,0 +1,52 @@
+.app-talking-head {
+  #left-eye {
+    animation: bounce 1s infinite;
+    animation-direction: alternate;
+  }
+
+  #right-eye {
+    animation: bounce 1s ;
+    animation-direction: alternate-reverse;
+  }
+  #right-eye-color {
+    animation: bounce 0.5s ;
+    animation-direction: alternate;
+  }
+
+  #left-eye-bg  {
+    transform: translateX(20px);
+    animation: wiggle 0.5s ;
+    animation-direction: alternate-reverse;
+    fill: #000;
+  }
+
+  #right-eye-bg  {
+    transform: translateX(-20px);
+    animation: wiggle 0.5s ;
+    animation-direction: reverse;
+    fill: white;
+  }
+}
+
+@keyframes wiggle {
+  0% {
+    transform: translateX( -20px);
+  }
+
+  100%{
+    transform: translateX( 20px) scale(1.1);
+  }
+}
+
+
+@keyframes bounce {
+  0% {
+    transform: translateX(0px) translateY( 0px);;
+    fill: pink
+  }
+
+  100% {
+    transform: translateY(-30px);;
+    fill: orange;
+  }
+}
