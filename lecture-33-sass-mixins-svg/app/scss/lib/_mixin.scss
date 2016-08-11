@@ -1,0 +1,8 @@
+@mixin app-cool-border($border-width, $fg, $bg) {
+
+  display: inline-block;
+  padding: $border-width;
+  border: $border-width solid $fg;
+  border-radius: 10px 0px 10px 0px;
+  box-shadow: $border-width $border-width $bg;
+}

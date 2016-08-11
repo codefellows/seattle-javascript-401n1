@@ -1,0 +1,35 @@
+@import "_theme";
+
+.app-list {
+  position: relative;
+  width: 100%;
+  background-color: $app-light;
+  margin: 5px;
+  padding: 5px;
+  border: 2px solid $app-dark;
+
+  h2 {
+    margin: 0px;
+    margin-left: 25px;
+    display: inline-block;
+  }
+
+  .fa-trash-o {
+    position: absolute;
+    top: 0;
+    left:0;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    color: black;
+
+    &:hover {
+      color: red;
+    }
+
+    &:active {
+      color: blue;
+    }
+  }
+}
