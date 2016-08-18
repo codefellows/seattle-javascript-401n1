@@ -1,0 +1,46 @@
+@import "_theme";
+
+.app-nav {
+  // position
+  position: fixed;
+  top:0;
+  left:0;
+  // display
+  // w/h
+  width: 100px;
+  height: 100%;
+  // margins
+  // padding
+  padding: 4px;
+  padding-top: 30px;
+  // box stuff
+  // font
+  // color
+  background-color: $app-light;
+
+  a {
+    display: inline-block;
+    text-decoration: none;
+    color: $app-default;
+    width: 100%;
+    height: 100%;
+    &:hover {
+      color: $app-dark;
+    }
+  }
+
+  ul  {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+
+    li {
+      border-bottom: $app-default 1px solid;
+      text-align: center;
+
+      &:hover {
+        border-bottom: $app-dark 1px solid;
+      }
+    }
+  }
+}

@@ -1,0 +1,63 @@
+.app-ham {
+  position: relative;
+  height: 25px;
+  border: blue 2px dotted;
+
+  .fa-bars {
+    position: absolute;
+    z-index: 100;
+    font-size: 25px;
+  }
+
+}
+
+.ham-exit.ng-leave {
+  animation: my_fade_animation 0.2s linear;
+  * {
+    animation: my_fade_animation 0.2s linear;
+  }
+}
+
+.ham-exit.ng-enter {
+  animation: my_fade_animation 0.2s linear reverse;
+  * {
+    animation: my_fade_animation 0.2s linear reverse;
+  }
+}
+
+@keyframes my_fade_animation {
+  from {
+    left: 0;
+  } to {
+    left: -100px;
+  }
+}
+
+/*.ham-exit.ng-hide{*/
+/*transition:0.2s linear all;*/
+/*opacity: 0;*/
+/*}*/
+
+/*.ham-exit.ng-hide.ng-hide-active {*/
+/*left: -100px;*/
+/** {*/
+/*left: -100px;*/
+  /*}*/
+/*}*/
+
+/*.ham-exit.ng-enter {*/
+/*transition:0.2s linear all;*/
+/*left: -100px;*/
+
+/** {*/
+/*transition:0.2s linear all;*/
+/*left: -100px;*/
+  /*}*/
+/*}*/
+
+/*.ham-exit.ng-enter.ng-enter-active {*/
+/*left: 0px;*/
+/** {*/
+/*left: 0px;*/
+  /*}*/
+/*}*/
