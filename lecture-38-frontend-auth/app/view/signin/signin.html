@@ -1,0 +1,23 @@
+<main class="app-signin" ng-init="signinCtrl.getToken()">
+  <form novalidate ng-submit="signinCtrl.signin()" name="signinForm">
+    <section class="form-group">
+      <label for="username"> Username: </label>
+      <input ng-required ng-minlength="3"
+      class="form-control"
+      name="username" type="text"
+      ng-model="signinCtrl.user.username"
+      ng-class="{ jello: signinForm.$submitted && signinForm.username.$invalid}">
+    </section>
+    <section class="form-group">
+      <label for="password"> Password: </label>
+      <input  ng-required ng-minlength="3"
+      class="form-control"
+      name="password" type="password"
+      ng-class="{ jello: signinForm.$submitted && signinForm.password.$invalid}"
+      ng-model="signinCtrl.user.password">
+    </section>
+    <button type="submit" class="btn btn-default">
+      Sign in
+    </button>
+  </form>
+</main>

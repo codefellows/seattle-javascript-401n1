@@ -2,22 +2,19 @@
 
 // npm modules
 const webpack = require('webpack');
-const CleanPlugin = require('clean-webpack-plugin');
-
 const autoprefixer = require('autoprefixer');
+const CleanPlugin = require('clean-webpack-plugin');
 const ExtractText = require('extract-text-webpack-plugin');
 
 // module constants
 const production = process.env.NODE_ENV === 'production';
 const apiURL = process.env.API_URL || 'http://localhost:3000';
 
-
 // webpack config
 var plugins = [
   new ExtractText('bundle.css'),
   new webpack.DefinePlugin({
     __API_URL__: JSON.stringify(apiURL),
-    __DEBUG__: JSON.stringify(!production),
   }),
 ];
 
